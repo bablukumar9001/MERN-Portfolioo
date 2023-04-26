@@ -8,7 +8,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm start --prefix ./Frontend ",
-    "dev": "concurrently \"npm start\" \"npm run Frontend\""
+    "dev": "concurrently \"npm run dev\" \"npm run Frontend\""
   },
   "author": "",
   "license": "ISC",
