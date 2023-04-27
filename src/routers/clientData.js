@@ -6,8 +6,9 @@ const path = require("path")
 
 
 router.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "/ Frontend / dist/imdex.html"))
+    res.sendFile(path.join(__dirname, "../../Frontend/dist/index.html"))
 })
+// console.log(path.join(__dirname, "../../Frontend/dist"))
 
 router.post("/clientdata", async (req, res) => {
     // console.log(req.body)
