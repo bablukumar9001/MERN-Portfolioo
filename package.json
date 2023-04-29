@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "server": "nodemon index.js",
-    "client": "npm start --prefix ./Frontend ",
-    "dev": "concurrently \"npm start\" \"npm run Frontend\""
+    "frontend": "npm start --prefix ./frontend ",
+    "dev": "concurrently \"npm start\" \"npm run frontend\""
   },
   "author": "",
   "license": "ISC",
